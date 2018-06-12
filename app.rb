@@ -14,7 +14,8 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
  get '/square/:number' do
- @name = params[:name]
+x = (params[:number].to_i)
+  "#{x}"
 #   "#{@name.reverse}"
 # end
 # end
