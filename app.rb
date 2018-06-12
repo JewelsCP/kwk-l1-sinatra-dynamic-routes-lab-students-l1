@@ -4,7 +4,7 @@ class App < Sinatra::Base
   # Write your code here!
 
 get '/reverse/:name' do
-  :name.reverse
+  @:name.reverse
 end
 
 end
