@@ -17,3 +17,5 @@ x = (params[:number].to_i)* (params[:number].to_i)
   "#{x}"
 end
 end
+
+# Number three
